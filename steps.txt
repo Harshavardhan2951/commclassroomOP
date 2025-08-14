@@ -1,0 +1,6 @@
+`While if wanted to get the latest changes from the upstream to the forked branch:
+	$.git fetch --all --prune
+		-all: this fetches all of the changes available in the upstream
+		--prunue: this fetches the changes from upstream which is even deleted.
+	$.git reset --hard upstream/main
+		:this command helps to merge the logs from the upstream to the forked main branch in the local repository 
